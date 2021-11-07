@@ -1,0 +1,52 @@
+<!this site was build by Valerye Emter @wella_exe 21.10.21->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Wella_exe Art Website</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+<body>
+<section class="contact">
+   <nav>
+    <a href="index.html"><img src="images/loogoo.png"></a>
+     <div class="nav-links" id="navLinks">
+         <i class="fa fa-times-circle" onclick="hidemenu()"></i>
+        <ul> 
+            <l><a href="index.html">HOME</a></l>
+            <l><a href="about.html">ABOUT</a></l>
+            <l><a href="">WORKS</a></l>
+            <l><a href="https://www.instagram.com/wella_exe/">INSTAGRAM</a></l>
+            <l><a href="contact.html">CONTACT</a></l>
+        </ul>
+     </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+   </nav>
+<div class="text-box">
+    <h3>wella_exe - contact and Social Media </h3>
+    <a href="https://www.instagram.com/wella_exe/?hl=com">Instagram</a>
+    <a href="https://twitter.com/Wella_exe">Twitter</a> 
+    <a href="https://www.twitch.tv/wella_exe">Twitch</a>
+    <a href="wella.exe.official@gmail.com">Official Email</a>
+    <a href="wella.exe.commission@gmail.com">Commission Email</a>
+    
+</div>       
+</section>
+
+<!----------javaScribt for mobile Menu-------->   
+<script>
+    
+    var navLinks = document.getElementById("navLinks")
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+        function hedeMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
